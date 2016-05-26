@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>Title</h2>
+    <div class="form">
+      <form action="index.html" method="post">
+
+        <label>Address 1:</label>
+        <input type="text" name="address1" value="">
+        <label>Address 2:</label>
+        <input type="text" name="address2" value="">
+        <label>Address 3:</label>
+        <input type="text" name="address3" value="">
+
+        <label>Maximum Rent:</label>
+        <input type="text" name="price" value="">
+
+        <h4>Transportation</h4>
+        <label for="public-transit">Public Transporation</label>
+        <input type="radio" id="public-transit" name="transportation" value="pt"><br>
+        <label for="driving">Driving</label>
+        <input type="radio" id="driving" name="transportation" value="d"><br>
+        <label for="walking">Walking</label>
+        <input type="radio" id="walking" name="transportation" value="w"><br>
+        <label for="cycling">Cycling</label>
+        <input type="radio" id="cycling" name="transportation" value="c"><br>
+
+        <input type="submit" name="submit" value="See Results">
+
+      </form>
+    </div>
+
+    <div class="list-results">
+      <h4>Neighborhood 1:</h4>
+      <ul>
+        <li>Name: X</li>
+        <li>Average Travel Time:  X minutes</li>
+      </ul>
+      <h4>Neighborhood 2:</h4>
+      <ul>
+        <li>Name: Y</li>
+        <li>Average Travel Time:  Y minutes</li>
+      </ul>
+      <h4>Neighborhood 3:</h4>
+      <ul>
+        <li>Name: Z</li>
+        <li>Average Travel Time:  Z minutes</li>
+      </ul>
+    </div>
+
+    <div class="map">
+      <img src="map_img.png" alt="" />
+    </div>
+
+</body>
+</html>
